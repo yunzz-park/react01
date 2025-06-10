@@ -9,11 +9,14 @@ import Clock from "./chapter_04/Clock";
 import CommentList from "./chapter_05/CommentList";
 import Accommodate from "./chapter_07/Accommodate";
 import ConfirmButton from "./chapter_08/ConfirmButton";
+import LandingPage from "./chapter_09/LandingPage";
+import AttendanceBook from "./chapter_10/AttendanceBook";
+import SignUp from "./chpater_11/SignUp";
 
 const root = createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <ConfirmButton />
+    <SignUp />
   </React.StrictMode>
 );
 
